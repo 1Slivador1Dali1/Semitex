@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Light.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraBold.woff2) format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url(../fonts/futurabookc.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url(../fonts/futurademic.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url(../fonts/futurafuturisc.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaLightC';
+    src: url(../fonts/futuralightc.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url(../fonts/futurafuturisc-bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../fonts/proxima_nova_regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "FuturaBookC", sans-serif;
+    --third-family: "FuturaFuturisC", sans-serif;
+    --font3: "FuturaDemiC", sans-serif;
+    --font4: "FuturaLightC", sans-serif;
+    --font5: "Proxima Nova", sans-serif;
+  }
+
+ header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 850px;
+    background-image: url(../img/bg-header.svg);
+    background-repeat: no-repeat;
+ } 
+
+ nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    position: sticky;
+    width: 1281px;
+    height: 33px;
+    margin: 54px 320px 112px 320px;
+ }
+
+ .logo {
+    margin-right: 60px;
+ }
+
+.nav-list {
+    padding-top: 3px;
+    margin-right: 58px;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-list a {
+    font-family: var(--font4);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 123%;
+    color: #fff;
+    text-decoration: none;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.tel {
+    display: flex;
+    height: 33px;
+    align-items: center;
+}
+.tel > svg {
+    margin-right: 10px;
+}
+
+.tel a {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 123%;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tel span {
+    font-weight: 700;
+}
+
+.header-title {
+    display: flex;
+    height: 460px;
+}
+
+.ht-one {
+    height: 460px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 69px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.sp-one {
+    font-size: 48px;
+    color: #969af7;
+}
+
+.sp-two {
+    font-size: 61px;
+    line-height: 123%;
+}
+
+.ht-one p {
+    width: 672px;
+    height: 60px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 130%;
+    color: #969af7;
+    margin-bottom: 37px;
+}
+
+.ht-one-list {
+    border-radius: 10px;
+    width: 835px;
+    height: 150px;
+    background: linear-gradient(90deg, #9699f73e 0%, #9699f700 100%);
+}
+
+.ht-one-list ul {
+    padding-top: 25px;
+    padding-left: 60px;
+
+}
+
+.ht-one-list li {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #fff;
+}
+
+.ht-two {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #f2f3f5; */
+    border-radius: 10px;
+    width: 380px;
+    height: 473px;
+    /* text-align: center; */
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background: #fff;
+    
+}
+
+.ht-two h2 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 380px;
+    height: 110px;
+    background: linear-gradient(180deg, #6a32b4 0%, #552693 100%);
+    text-transform: uppercase;
+    padding-top: 32px;
+}
+
+.inp-one {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.lb-one {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 129%;
+    color: #626366;
+    padding-left: 20px;
+    padding-bottom: 1px;
+}
+
+#name {
+    width: 300px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: #f5f3ff;
+}
+
+.inp-two {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 86px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.lb-two {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 129%;
+    color: #626366;
+    padding-left: 20px;
+    padding-bottom: 1px;
+}
+
+#num-ph {
+    width: 300px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: #f5f3ff;
+}
+
+input::placeholder {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129%;
+    color: #bcbfc4;
+}
+
+#form-bt {
+    width: 300px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffa500;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.secr-form {
+    display: flex;
+    flex-direction: row;
+    width: 290px;
+    height: 16px;
+    margin-left: 40px;
+}
+
+.secr-form svg {
+    margin-right: 10px;
+}
+
+.secr-form p {
+    width: 264px;
+    height: 16px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #c0c0c0;
+}

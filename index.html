@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Semitex</title>
 </head>
 <body>
-    
+    <header>
+            <nav>
+                <div class="logo">
+                    <svg width="155" height="28" viewBox="0 0 155 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="155" height="28" fill="url(#pattern0_2_2819)"/>
+                        <defs>
+                        <pattern id="pattern0_2_2819" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_2_2819" transform="matrix(0.00549451 0 0 0.030416 0 -0.00186421)"/>
+                        </pattern>
+                        <image id="image0_2_2819" width="182" height="33" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Производители</a></li>
+                        <li><a href="#">Для кого мы работаем</a></li>
+                        <li><a href="#">Сертификаты</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="tel">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16.5" cy="16.5" r="16.5" fill="white"/>
+                        <path d="M23.6616 20.453C23.6209 20.3304 23.3621 20.1499 22.8852 19.9117C22.756 19.8366 22.5719 19.7346 22.3338 19.6052C22.0954 19.4757 21.879 19.3565 21.685 19.2475C21.4906 19.1385 21.3085 19.033 21.1383 18.9309C21.1111 18.9105 21.026 18.851 20.883 18.752C20.7398 18.6533 20.6191 18.5801 20.5201 18.5323C20.4214 18.4848 20.3243 18.4609 20.2289 18.4609C20.0927 18.4609 19.9226 18.5581 19.7183 18.752C19.5141 18.9463 19.3267 19.1572 19.1565 19.3856C18.9863 19.6139 18.8057 19.8248 18.6152 20.019C18.4244 20.2132 18.2676 20.3102 18.1452 20.3102C18.0837 20.3102 18.007 20.293 17.9152 20.2592C17.8234 20.2252 17.7535 20.196 17.7056 20.1725C17.658 20.1485 17.5765 20.101 17.4606 20.0292C17.3445 19.9577 17.28 19.9185 17.2664 19.9117C16.3333 19.3939 15.533 18.8014 14.8654 18.1341C14.1981 17.4665 13.6054 16.6664 13.0878 15.7332C13.081 15.7196 13.0417 15.6549 12.9703 15.5391C12.8987 15.4233 12.851 15.3417 12.8272 15.2939C12.8033 15.2463 12.7744 15.1764 12.7404 15.0845C12.7064 14.9926 12.6893 14.916 12.6893 14.8546C12.6893 14.7321 12.7864 14.5754 12.9805 14.3846C13.1746 14.194 13.3858 14.0135 13.6139 13.8433C13.8422 13.6732 14.0532 13.4858 14.2474 13.2816C14.4415 13.0772 14.5385 12.907 14.5385 12.7708C14.5385 12.6756 14.5147 12.5784 14.4671 12.4797C14.4194 12.3807 14.3462 12.26 14.2474 12.1169C14.1485 11.9739 14.0889 11.8888 14.0685 11.8615C13.9664 11.6913 13.861 11.5091 13.7519 11.315C13.6427 11.1209 13.5237 10.9046 13.3942 10.6663C13.2648 10.428 13.1627 10.2441 13.0877 10.1147C12.8495 9.638 12.669 9.37908 12.5464 9.33835C12.4987 9.31792 12.4271 9.30762 12.3318 9.30762C12.1478 9.30762 11.9078 9.34161 11.6115 9.40981C11.3152 9.47791 11.0819 9.54933 10.9116 9.62437C10.5711 9.76732 10.2101 10.1828 9.82865 10.8705C9.48128 11.5106 9.30762 12.1441 9.30762 12.7707C9.30762 12.9544 9.31953 13.1332 9.34337 13.307C9.3672 13.4807 9.40978 13.6765 9.47115 13.8945C9.53242 14.1124 9.58184 14.2743 9.6192 14.3797C9.65659 14.4852 9.72641 14.6742 9.82861 14.9467C9.93067 15.2191 9.99204 15.3859 10.0125 15.4472C10.2508 16.1147 10.5335 16.7106 10.8604 17.2351C11.3982 18.1068 12.1322 19.0077 13.0619 19.9374C13.9917 20.867 14.8924 21.6009 15.7643 22.139C16.2887 22.4658 16.8849 22.7484 17.5523 22.987C17.6136 23.0073 17.7804 23.0685 18.0528 23.1709C18.3252 23.273 18.5143 23.3429 18.6198 23.3803C18.7253 23.4178 18.8872 23.4673 19.105 23.5286C19.3232 23.59 19.5189 23.6326 19.6925 23.6566C19.8663 23.6801 20.0451 23.6922 20.2289 23.6922C20.8555 23.6922 21.4891 23.5185 22.1293 23.1712C22.817 22.7899 23.2324 22.4289 23.3754 22.0881C23.4506 21.9179 23.5219 21.6847 23.59 21.3883C23.6583 21.0921 23.6922 20.8521 23.6922 20.6682C23.6924 20.5725 23.6822 20.5011 23.6616 20.453Z" fill="#07086C"/>
+                    </svg>
+                    <div class="tel-link"><a href="#" type="tel">+7 (812) <span>313-58-45</span></a></div>
+                </div>
+            </nav>
+            <div class="header-title">
+                <div class="ht-one">
+                    <h1>Оптовые поставки<br>
+                        <span class="sp-one">электронных компонентов</span><br>
+                        <span class="sp-two">из китая день в день</span>
+                    </h1>
+                    <p>Комплексные поставки электронных компонентов и оборудования. Подберем аналоги популярных брендов из Европы в условиях санкций.</p>
+                    <div class="ht-one-list">
+                        <ul>
+                            <li>Отсрочка платежей для постоянных клиентов</li>
+                            <li>Бесплатная доставка по Москве и СПБ в течение 2х часов</li>
+                            <li>Квалифицированный персональный менеджер</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ht-two">
+                    <h2>закажите<br>обратный звонок</h2>
+                    <form action="#">
+                        <div class="inp-one">
+                            <label for="name" class="lb-one">
+                                Ваше имя*
+                            </label>
+                            <input type="text" id="name" placeholder="  Петров Петр">
+                        </div>
+
+                        <div class="inp-two">
+                            <label for="num-ph" class="lb-two">
+                                Ваш номер*
+                            </label>
+                            <input type="tel" id="num-ph" placeholder=" +7 (_ _ _)_ _ _-_ _-_ _">
+                        </div>
+                        <button id="form-bt">Заказать звонок</button>
+                        <div class="secr-form">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.57773 6V7.3333H9.42227V6C9.42227 5.26465 8.78438 4.6667 8 4.6667C7.21563 4.6667 6.57773 5.26465 6.57773 6Z" fill="#969AF7"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4184 16 16 12.4183 16 8C16 3.58174 12.4184 0 8 0C3.58164 0 0 3.58174 0 8C0 12.4183 3.58164 16 8 16ZM10.1332 6V7.3333H11.2V12H4.8V7.3333H5.8668V6C5.8668 4.8957 6.82188 4 8 4C9.17813 4 10.1332 4.8957 10.1332 6Z" fill="#969AF7"/>
+                            </svg>
+                                
+                            <p>Мы гарантируем конфиденциальность данных</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+    </header>
 </body>
 </html>
