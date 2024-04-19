@@ -120,14 +120,14 @@ body {
     align-items: center;
     min-height: 850px;
     background-image: url(../img/bg-header.svg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
  } 
 
  nav {
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
-    position: sticky;
+    position: static;
     width: 1281px;
     height: 33px;
     margin: 54px 320px 112px 320px;
@@ -462,3 +462,21 @@ input::placeholder {
     margin-bottom: 40px;
 }
 
+.sct-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 730px;
+    background-image: url(../img/bg-section-two.svg);
+    /* background-repeat: no-repeat; */
+}
+
+.sct-two h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 110px;
+}
