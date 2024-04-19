@@ -100,6 +100,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #f2f2f4;
+}
+
 :root {
     --font-family: "Poppins", sans-serif;
     --second-family: "FuturaBookC", sans-serif;
@@ -376,3 +380,85 @@ input::placeholder {
     font-size: 14px;
     color: #c0c0c0;
 }
+
+.sct-one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1120px;
+
+}
+
+.sct-one-one {
+    height: 110px;
+    margin-top: 30px;
+    margin-bottom: 42px;
+
+}
+
+.sct-one-one h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.sct-one-one p {
+    height: 48px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 109%;
+    color: #030303;
+
+}
+
+.sct-one-two {
+    display: flex;
+    width: 1200px;
+    height: 844px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.sct-one-two h4 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #2a336c;
+    margin-bottom: 14px;
+}
+
+.sct-one-two p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    color: #555;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 406px;
+    background-image: url(../img/bg-card.svg);
+    border-radius: 10px;
+    box-shadow: inset 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+}
+
+.card:nth-child(3) {
+    margin-right: 0px;
+}
+
+.card-img {
+    height: 163px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
