@@ -239,6 +239,12 @@ h1 {
     font-size: 22px;
     line-height: 130%;
     color: #fff;
+    list-style-type: none;
+}
+
+.ht-one-list li::before {
+    content: url(../img/check.svg);
+    margin-right: 10px;
 }
 
 .ht-two {
