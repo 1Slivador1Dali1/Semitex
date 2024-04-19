@@ -478,5 +478,56 @@ input::placeholder {
     line-height: 100%;
     text-align: center;
     color: #fff;
-    padding-top: 110px;
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+.sct-two p {
+    width: 1280px;
+    height: 100px;
+    text-align: start;
+    margin: 0 auto;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 155%;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 1434px;
+    height: 174px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.manufacturers {
+    display: flex;
+    width: 1290px;
+    height: 174px;
+}
+
+.card-mfr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 174px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    margin-right: 20px;
+}
+
+.card-mfr:last-child {
+    margin-right: 60px;
+}
+
+.left-arrow {
+    margin-right: 60px;
+}
+
+.arrow {
+    padding-top: 67px;
 }
