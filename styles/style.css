@@ -657,3 +657,58 @@ input::placeholder {
     height: 269px;
     background-image: url(../img/step-six.svg);
 }
+
+.sct-four {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 1100px;
+    background-image: url(../img/bg-section-four.svg);
+}
+
+.sct-four-one h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    width: 1280px;
+    height: 87px;
+    box-shadow: 0 0 50px -10px rgba(22, 126, 194, 0.2);
+    background: linear-gradient(180deg, #fff 0%, #bdc0ff 100%);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.name-about {
+    font-family: var(--font3);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    color: #333;
+    margin-left: 50px;
+    margin-right: 560px;
+}
+
+#about-two {
+    background: linear-gradient(180deg, #969af7 0%, #686eec 100%);
+}
+
+#about-two p {
+    font-family: var(--font3);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 117%;
+    color: #fff;
+}
+
