@@ -536,7 +536,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 700px;
+    height: 900px;
     background-image: url(../img/bg-section-three.svg);
 }
 
@@ -547,10 +547,12 @@ input::placeholder {
     line-height: 100%;
     text-align: center;
     color: #111;
+    margin-bottom: 25px;
 }
 
 .sct-three-one {
     margin-top: 20px;
+    margin-bottom: 45px;
 }
 
 #bt {
@@ -568,4 +570,90 @@ input::placeholder {
     color: #fff;
     margin-left: 40px;
     margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.sct-three-two {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 1300px;
+ height: 600px;
+ margin: 0 auto;
+ margin-bottom: 50px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.steps h4 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 139%;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.steps span {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #969af7;
+    margin-right: 15px;
+}
+
+.steps p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    color: #e3e3e3;
+    text-align: start;
+
+}
+
+.st-info {
+    width: 300px;
+    margin-left: 80px;
+}
+
+.step-one {
+    width: 440px;
+    height: 270px;
+    background-image: url(../img/step-one.svg);
+}
+
+.step-two {
+    width: 443px;
+    height: 270px;
+    background-image: url(../img/step-two.svg);
+}
+
+.step-three {
+    width: 413px;
+    height: 299px;
+    background-image: url(../img/step-three.svg);
+}
+
+.step-four {
+    width: 442px;
+    height: 269px;
+    background-image: url(../img/step-four.svg);
+}
+
+.step-five {
+    width: 442px;
+    height: 269px;
+    background-image: url(../img/step-five.svg);
+}
+
+.step-six {
+    width: 413px;
+    height: 269px;
+    background-image: url(../img/step-six.svg);
 }
