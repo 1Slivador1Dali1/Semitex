@@ -466,7 +466,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 730px;
+    height: 728px;
     background-image: url(../img/bg-section-two.svg);
     /* background-repeat: no-repeat; */
 }
@@ -530,4 +530,21 @@ input::placeholder {
 
 .arrow {
     padding-top: 67px;
+}
+
+.sct-three {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 700px;
+    background-image: url(../img/bg-section-three.svg);
+}
+
+.sct-three h3 {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    text-align: center;
+    color: #111;
 }
