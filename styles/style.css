@@ -548,3 +548,24 @@ input::placeholder {
     text-align: center;
     color: #111;
 }
+
+.sct-three-one {
+    margin-top: 20px;
+}
+
+#bt {
+    width: 300px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffa500;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
