@@ -662,7 +662,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 1100px;
+    height: 1200px;
     background-image: url(../img/bg-section-four.svg);
 }
 
@@ -712,3 +712,29 @@ input::placeholder {
     color: #fff;
 }
 
+.about-wrapper {
+    width: 1280px;
+    height: 522px;
+    border: 1px solid #167ec2;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 1184px;
+    height: 350px;
+    margin-left: 48px;
+}
+
+.about-info p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #333;
+}
